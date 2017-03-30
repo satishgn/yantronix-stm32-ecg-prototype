@@ -1,0 +1,57 @@
+Partlist exported from C:/Users/Satish Nair/Documents/eagle/YANTRONIX/Yantronix_ECG_Pre_Alpha/Yantronix_ECG_Pre_Alpha.sch at 24-12-2010 18:54:04
+
+Qty Value         Device               Parts                                                     
+1                 FE07W                SDCARD                                                    
+2                 JP1E                 JP2, JP3                                                  
+4                 JP2E                 JP1, JP4, JP5, JP6                                        
+2                 LED3MM               LED1, LED2                                                
+2                 MA03-1               CN1, CN2                                                  
+3                 MA04-1               PI, PO, SDC                                               
+1                 MA04-2               PUD                                                       
+2                 MA05-1               AO, EL                                                    
+1                 MA07-1               LCD                                                       
+4                 MA08-1               BP, BUTTONS, KEYPAD, KP                                   
+6   0.01uF        C-EU050-025X075      C2, C7, C8, C11, C18, C19                                 
+5   0.1uF         C-EU050-025X075      C5, C9, C10, C14, C16                                     
+2   1K            R-EU_0204/7          R9, R22                                                   
+3   1M            R-EU_0204/7          R11, R50, R51                                             
+2   1N4728        1N4728               D3, D5                                                    
+2   1N5817        1N5817-B             D1, D2                                                    
+1   1uF           CPOL-EUE2.5-5        C4                                                        
+1   1uH           L-EU2200-15.24       L2                                                        
+1   2K            R-EU_0204/7          R28                                                       
+1   3.3uF         CPOL-EUE2.5-5        C3                                                        
+1   4.7uF         CPOL-EUE2.5-5        C17                                                       
+1   4.7uH         L-EU2200-15.24       L1                                                        
+2   5.6K          R-EU_0204/7          R7, R8                                                    
+12  10K           R-EU_0204/7          R26, R33, R34, R35, R36, R38, R39, R40, R41, R47, R48, R49
+1   10uF          CPOL-EUE2.5-5        C6                                                        
+1   15K           R-EU_0204/7          R24                                                       
+1   20K           R-EU_0204/7          R16                                                       
+1   22K           R-EU_0204/7          R30                                                       
+2   22uF          CPOL-EUE2.5-5        C1, C13                                                   
+1   27K           R-EU_0204/7          R27                                                       
+1   39pF          C-EU050-025X075      C12                                                       
+4   47K           R-EU_0204/7          R19, R20, R21, R23                                        
+1   47uF          CPOL-EUE2.5-5        C15                                                       
+1   74HC02        74HC02N              IC1                                                       
+1   100           R-EU_0204/7          R12                                                       
+4   100K          R-EU_0204/7          R2, R6, R10, R18                                          
+1   150K          R-EU_0204/7          R25                                                       
+1   180K          R-EU_0204/7          R5                                                        
+1   220           R-EU_0204/7          R54                                                       
+3   220K          R-EU_0204/7          R13, R14, R17                                             
+1   270K          R-EU_0204/7          R4                                                        
+4   330           R-EU_0204/7          R31, R32, R43, R44                                        
+1   330K          R-EU_0204/7          R52                                                       
+1   390K          R-EU_0204/7          R15                                                       
+2   470K          R-EU_0204/7          R1, R3                                                    
+1   680K          R-EU_0204/7          R53                                                       
+1   AD623N        AD623N               IC3                                                       
+1   BAT85         SCHOTTKY-DIODEDO35-7 D4                                                        
+1   BS170         BS170                Q1                                                        
+1   LP2951N       LP2951N              IC2                                                       
+4   MOUNT-HOLE2.8 MOUNT-HOLE2.8        H1, H2, H3, H4                                            
+2   OPA2340P      OPA2340P             IC4, IC5                                                  
+1   TBD           KSS1201              SP                                                        
+2   TBD           R-EU_0204/7          R29, R37                                                  

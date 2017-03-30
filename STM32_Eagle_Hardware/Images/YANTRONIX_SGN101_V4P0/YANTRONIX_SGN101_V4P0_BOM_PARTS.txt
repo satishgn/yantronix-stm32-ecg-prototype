@@ -1,0 +1,117 @@
+Partlist exported from C:/Users/Satish/Documents/EAGLE/YANTRONIX/Project/Yantronix_ECG_Alpha/Yantronix_ECG_Alpha.sch at 5/20/2011 3:47:27 PM
+
+Part Value                       Device                      Package                Description                                                                                                         
+BAT1 BATTERY                     BATTERY                     BATTERY                NC ACCU Varta                                                                                                       
+C1   10uF                        POL-CAPACITOR1206           EIA3216                Capacitor Polarized                                                                                                 
+C2   2.2uF                       CAPACITOR0805               0805                   Capacitor                                                                                                           
+C3   2.2uF                       CAPACITOR0805               0805                   Capacitor                                                                                                           
+C4   33nF                        CAPACITOR0805               0805                   Capacitor                                                                                                           
+C5   0.1uF                       CAPACITOR0805               0805                   Capacitor                                                                                                           
+C6   0.1uF                       CAPACITOR0805               0805                   Capacitor                                                                                                           
+C7   10uF                        POL-CAPACITOR1206           EIA3216                Capacitor Polarized                                                                                                 
+C8   0.01uF                      CAPACITOR0805               0805                   Capacitor                                                                                                           
+C9   0.1uF                       CAPACITOR0805               0805                   Capacitor                                                                                                           
+C10  0.1uF                       CAPACITOR0805               0805                   Capacitor                                                                                                           
+C11  0.1uF                       CAPACITOR0805               0805                   Capacitor                                                                                                           
+C12  0.1uF                       CAPACITOR0805               0805                   Capacitor                                                                                                           
+C13  0.1uF                       CAPACITOR0805               0805                   Capacitor                                                                                                           
+C14  10uF                        POL-CAPACITOR1206           EIA3216                Capacitor Polarized                                                                                                 
+C15  0.1uF                       CAPACITOR0805               0805                   Capacitor                                                                                                           
+C16  0.1uF                       CAPACITOR0805               0805                   Capacitor                                                                                                           
+C17  0.1uF                       CAPACITOR0805               0805                   Capacitor                                                                                                           
+C18  0.1uF                       CAPACITOR0805               0805                   Capacitor                                                                                                           
+C19  0.1uF                       CAPACITOR0805               0805                   Capacitor                                                                                                           
+C20  10uF                        POL-CAPACITOR1206           EIA3216                Capacitor Polarized                                                                                                 
+C21  27pF                        CAPACITOR0805               0805                   Capacitor                                                                                                           
+C22  27pF                        CAPACITOR0805               0805                   Capacitor                                                                                                           
+C23  0.1uF                       CAPACITOR0805               0805                   Capacitor                                                                                                           
+C24  6.8pF                       CAPACITOR0805               0805                   Capacitor                                                                                                           
+C25  6.8pF                       CAPACITOR0805               0805                   Capacitor                                                                                                           
+CN1  MINI-USB-SHIELD-UX60-MB-5ST MINI-USB-SHIELD-UX60-MB-5ST UX60-MB-5ST            MINI USB Connector                                                                                                  
+CN2  DM3D-SF                     DM3D-SF                     MICROSD-CONN-PUSH-PULL Hirose's DM3D series MicroSD card connector(Push-Pull, manual, without ejection mechanism) used on Yantronix Boards.
+CN3  PL-E128649B                 PL-E128649B                 LCD-CONN-128X64        POWER LIGHT - 128X64 COG GRAPHICS LCD MODULE (PL-E128649B-FFSESW)                                                   
+CN4  SWD                         FE05W                       FE05W                  FEMALE HEADER                                                                                                       
+CN5  EXT-CON                     FE13-2W                     FE13-2W                FEMALE HEADER                                                                                                       
+CN6  PU-PD                       MA04-1                      MA04-1                 PIN HEADER                                                                                                          
+CN7  RA-LA-RL                    MA03-1                      MA03-1                 PIN HEADER                                                                                                          
+CN8  AUDIO-JACKPTH               AUDIO-JACKPTH               AUDIO-JACK             3.5mm AUDIO JACK STEREO                                                                                             
+D1   BAT60J                      BAT60J                      SOD-323                SMALL SIGNAL SCHOTTKY DIODE                                                                                         
+D2   BAT60J                      BAT60J                      SOD-323                SMALL SIGNAL SCHOTTKY DIODE                                                                                         
+IC1  SN74LVC2G02                 SN74LVC2G02                 DCT_R-PDSO-G8          DUAL 2-INPUT POSITIVE-NOR GATE                                                                                      
+IC2  LP3982IMM                   LP3982IMM                   MSOP08                 Micropower, Ultra Low-Dropout, Low-Noise, 300mA CMOS Regulator                                                      
+IC3  USBLC6-2SC6                 USBLC6-2SC6                 SOT23-6                Very low capacitance ESD protection                                                                                 
+IC4  AD623RM                     AD623RM                     MSOP08                 Single-Supply, Rail-to-Rail, Low Cost Instrumentation Amplifier                                                     
+IC5  AD8607RM                    AD8607RM                    MSOP08                 Precision Micropower, Low Noise CMOS, Rail-to-Rail Input/Output Operational Amplifiers                              
+IC6  STM32F10XRXT6               STM32F10XRXT6               TQFP64                 STM32F101/103 64pin LQFP                                                                                            
+JP1  FIDUCIAL1.5X3               FIDUCIAL1.5X3               FIDUCIAL-1.5X3         Fiducial Alignment Points                                                                                           
+JP2  FIDUCIAL1.5X3               FIDUCIAL1.5X3               FIDUCIAL-1.5X3         Fiducial Alignment Points                                                                                           
+L1   Ferrite Bead                INDUCTOR0805                0805                   Inductors                                                                                                           
+Q1   BSS123                      BSS123                      SOT23                  N-CHANNEL MOS FET                                                                                                   
+Q2   BSS123                      BSS123                      SOT23                  N-CHANNEL MOS FET                                                                                                   
+Q3   BC817-40SMD                 BC817-40SMD                 SOT23-BEC              NPN Transistor                                                                                                      
+Q4   BC817-40SMD                 BC817-40SMD                 SOT23-BEC              NPN Transistor                                                                                                      
+Q5   8MHz                        CRYSTALHC49S                HC49/S                 CRYSTAL                                                                                                             
+Q6   32KHz                       CRYSTALTC26H                TC26H                  CRYSTAL                                                                                                             
+R1   100K                        RESISTOR0805                0805                   Resistor                                                                                                            
+R2   100K                        RESISTOR0805                0805                   Resistor                                                                                                            
+R3   100K                        RESISTOR0805                0805                   Resistor                                                                                                            
+R4   140K                        RESISTOR0805                0805                   Resistor                                                                                                            
+R5   100K                        RESISTOR0805                0805                   Resistor                                                                                                            
+R6   100K                        RESISTOR0805                0805                   Resistor                                                                                                            
+R7   22R                         RESISTOR0805                0805                   Resistor                                                                                                            
+R8   22R                         RESISTOR0805                0805                   Resistor                                                                                                            
+R9   100K                        RESISTOR0805                0805                   Resistor                                                                                                            
+R10  100K                        RESISTOR0805                0805                   Resistor                                                                                                            
+R11  10K                         RESISTOR0805                0805                   Resistor                                                                                                            
+R12  1K                          RESISTOR0805                0805                   Resistor                                                                                                            
+R13  100K                        RESISTOR0805                0805                   Resistor                                                                                                            
+R14  1M                          RESISTOR0805                0805                   Resistor                                                                                                            
+R15  OPEN                        RESISTOR0805                0805                   Resistor                                                                                                            
+R16  100R                        RESISTOR0805                0805                   Resistor                                                                                                            
+R17  100K                        RESISTOR0805                0805                   Resistor                                                                                                            
+R18  100K                        RESISTOR0805                0805                   Resistor                                                                                                            
+R19  100K                        RESISTOR0805                0805                   Resistor                                                                                                            
+R20  100K                        RESISTOR0805                0805                   Resistor                                                                                                            
+R21  1K5                         RESISTOR0805                0805                   Resistor                                                                                                            
+R22  10K                         RESISTOR0805                0805                   Resistor                                                                                                            
+R23  36K                         RESISTOR0805                0805                   Resistor                                                                                                            
+R24  47K                         RESISTOR0805                0805                   Resistor                                                                                                            
+R25  15K                         RESISTOR0805                0805                   Resistor                                                                                                            
+R26  22K                         RESISTOR0805                0805                   Resistor                                                                                                            
+R27  100K                        RESISTOR0805                0805                   Resistor                                                                                                            
+R28  1M                          RESISTOR0805                0805                   Resistor                                                                                                            
+R29  1M                          RESISTOR0805                0805                   Resistor                                                                                                            
+R30  330K                        RESISTOR0805                0805                   Resistor                                                                                                            
+R31  680K                        RESISTOR0805                0805                   Resistor                                                                                                            
+R32  330R                        RESISTOR0805                0805                   Resistor                                                                                                            
+R33  330R                        RESISTOR0805                0805                   Resistor                                                                                                            
+R34  10K                         RESISTOR0805                0805                   Resistor                                                                                                            
+R35  10K                         RESISTOR0805                0805                   Resistor                                                                                                            
+R36  10K                         RESISTOR0805                0805                   Resistor                                                                                                            
+R37  10K                         RESISTOR0805                0805                   Resistor                                                                                                            
+R38  10K                         RESISTOR0805                0805                   Resistor                                                                                                            
+R39  10K                         RESISTOR0805                0805                   Resistor                                                                                                            
+R40  10K                         RESISTOR0805                0805                   Resistor                                                                                                            
+R41  33K                         RESISTOR0805                0805                   Resistor                                                                                                            
+R42  100K                        RESISTOR0805                0805                   Resistor                                                                                                            
+R43  1M                          RESISTOR0805                0805                   Resistor                                                                                                            
+R44  100K                        RESISTOR0805                0805                   Resistor                                                                                                            
+R45  10K                         RESISTOR0805                0805                   Resistor                                                                                                            
+R46  10K                         RESISTOR0805                0805                   Resistor                                                                                                            
+R47  10K                         RESISTOR0805                0805                   Resistor                                                                                                            
+S1                               TAC-SWITCHPTH               TACTILE-PTH            Momentary Switch                                                                                                    
+S2                               TAC-SWITCHPTH               TACTILE-PTH            Momentary Switch                                                                                                    
+S3                               TAC-SWITCHPTH               TACTILE-PTH            Momentary Switch                                                                                                    
+S4                               TAC-SWITCHPTH               TACTILE-PTH            Momentary Switch                                                                                                    
+S5                               TAC-SWITCHPTH               TACTILE-PTH            Momentary Switch                                                                                                    
+SJ1                              SJ2W                        SJ-2                   SMD solder JUMPER                                                                                                   
+SJ2                              SJ                          SJ                     SMD solder JUMPER                                                                                                   
+SJ3                              SJ                          SJ                     SMD solder JUMPER                                                                                                   
+SJ4                              SJ                          SJ                     SMD solder JUMPER                                                                                                   
+SJ5                              SJ                          SJ                     SMD solder JUMPER                                                                                                   
+SJ6                              SJ                          SJ                     SMD solder JUMPER                                                                                                   
+SJ7                              SJ                          SJ                     SMD solder JUMPER                                                                                                   
+SJ8                              SJ2W                        SJ-2                   SMD solder JUMPER                                                                                                   
+SJ9                              SJ2W                        SJ-2                   SMD solder JUMPER                                                                                                   
+SJ10                             SJ2W                        SJ-2                   SMD solder JUMPER                                                                                                   
+SJ11                             SJ2W                        SJ-2                   SMD solder JUMPER                                                                                                   

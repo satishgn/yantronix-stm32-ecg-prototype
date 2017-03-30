@@ -1,0 +1,113 @@
+Partlist exported from C:/Users/Satish Nair/Documents/eagle/YANTRONIX/Yantronix_ECG_Pre_Alpha/Yantronix_ECG_Pre_Alpha.sch at 24-12-2010 18:53:08
+
+Part    Value         Device               Package      Description                                                    
+AO                    MA05-1               MA05-1       PIN HEADER                                                     
+BP                    MA08-1               MA08-1       PIN HEADER                                                     
+BUTTONS               MA08-1               MA08-1       PIN HEADER                                                     
+C1      22uF          CPOL-EUE2.5-5        E2,5-5       POLARIZED CAPACITOR, European symbol                           
+C2      0.01uF        C-EU050-025X075      C050-025X075 CAPACITOR, European symbol                                     
+C3      3.3uF         CPOL-EUE2.5-5        E2,5-5       POLARIZED CAPACITOR, European symbol                           
+C4      1uF           CPOL-EUE2.5-5        E2,5-5       POLARIZED CAPACITOR, European symbol                           
+C5      0.1uF         C-EU050-025X075      C050-025X075 CAPACITOR, European symbol                                     
+C6      10uF          CPOL-EUE2.5-5        E2,5-5       POLARIZED CAPACITOR, European symbol                           
+C7      0.01uF        C-EU050-025X075      C050-025X075 CAPACITOR, European symbol                                     
+C8      0.01uF        C-EU050-025X075      C050-025X075 CAPACITOR, European symbol                                     
+C9      0.1uF         C-EU050-025X075      C050-025X075 CAPACITOR, European symbol                                     
+C10     0.1uF         C-EU050-025X075      C050-025X075 CAPACITOR, European symbol                                     
+C11     0.01uF        C-EU050-025X075      C050-025X075 CAPACITOR, European symbol                                     
+C12     39pF          C-EU050-025X075      C050-025X075 CAPACITOR, European symbol                                     
+C13     22uF          CPOL-EUE2.5-5        E2,5-5       POLARIZED CAPACITOR, European symbol                           
+C14     0.1uF         C-EU050-025X075      C050-025X075 CAPACITOR, European symbol                                     
+C15     47uF          CPOL-EUE2.5-5        E2,5-5       POLARIZED CAPACITOR, European symbol                           
+C16     0.1uF         C-EU050-025X075      C050-025X075 CAPACITOR, European symbol                                     
+C17     4.7uF         CPOL-EUE2.5-5        E2,5-5       POLARIZED CAPACITOR, European symbol                           
+C18     0.01uF        C-EU050-025X075      C050-025X075 CAPACITOR, European symbol                                     
+C19     0.01uF        C-EU050-025X075      C050-025X075 CAPACITOR, European symbol                                     
+CN1                   MA03-1               MA03-1       PIN HEADER                                                     
+CN2                   MA03-1               MA03-1       PIN HEADER                                                     
+D1      1N5817        1N5817-B             DO41-7.6     1.0A SCHOTTKY BARRIER RECTIFIER                                
+D2      1N5817        1N5817-B             DO41-7.6     1.0A SCHOTTKY BARRIER RECTIFIER                                
+D3      1N4728        1N4728               DO41Z10      Z DIODE                                                        
+D4      BAT85         SCHOTTKY-DIODEDO35-7 DO35-7       Schottky Diode                                                 
+D5      1N4728        1N4728               DO41Z10      Z DIODE                                                        
+EL                    MA05-1               MA05-1       PIN HEADER                                                     
+H1      MOUNT-HOLE2.8 MOUNT-HOLE2.8        2,8          MOUNTING HOLE with drill center marker                         
+H2      MOUNT-HOLE2.8 MOUNT-HOLE2.8        2,8          MOUNTING HOLE with drill center marker                         
+H3      MOUNT-HOLE2.8 MOUNT-HOLE2.8        2,8          MOUNTING HOLE with drill center marker                         
+H4      MOUNT-HOLE2.8 MOUNT-HOLE2.8        2,8          MOUNTING HOLE with drill center marker                         
+IC1     74HC02        74HC02N              DIL14        Quad 2-input NOR gate                                          
+IC2     LP2951N       LP2951N              DIL08        Adjustable Micropower Voltage Regulator                        
+IC3     AD623N        AD623N               DIL08        Single-Supply, Rail-to-Rail, Low Cost Instrumentation Amplifier
+IC4     OPA2340P      OPA2340P             DIL08        Single-Supply, Rail-to-Rail Operational Amplifiers             
+IC5     OPA2340P      OPA2340P             DIL08        Single-Supply, Rail-to-Rail Operational Amplifiers             
+JP1                   JP2E                 JP2          JUMPER                                                         
+JP2                   JP1E                 JP1          JUMPER                                                         
+JP3                   JP1E                 JP1          JUMPER                                                         
+JP4                   JP2E                 JP2          JUMPER                                                         
+JP5                   JP2E                 JP2          JUMPER                                                         
+JP6                   JP2E                 JP2          JUMPER                                                         
+KEYPAD                MA08-1               MA08-1       PIN HEADER                                                     
+KP                    MA08-1               MA08-1       PIN HEADER                                                     
+L1      4.7uH         L-EU2200-15.24       2200-15.24   INDUCTOR, European symbol                                      
+L2      1uH           L-EU2200-15.24       2200-15.24   INDUCTOR, European symbol                                      
+LCD                   MA07-1               MA07-1       PIN HEADER                                                     
+LED1                  LED3MM               LED3MM       LED                                                            
+LED2                  LED3MM               LED3MM       LED                                                            
+PI                    MA04-1               MA04-1       PIN HEADER                                                     
+PO                    MA04-1               MA04-1       PIN HEADER                                                     
+PUD                   MA04-2               MA04-2       PIN HEADER                                                     
+Q1      BS170         BS170                SOT54E       N-CHANNEL MOS FET                                              
+R1      470K          R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R2      100K          R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R3      470K          R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R4      270K          R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R5      180K          R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R6      100K          R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R7      5.6K          R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R8      5.6K          R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R9      1K            R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R10     100K          R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R11     1M            R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R12     100           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R13     220K          R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R14     220K          R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R15     390K          R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R16     20K           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R17     220K          R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R18     100K          R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R19     47K           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R20     47K           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R21     47K           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R22     1K            R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R23     47K           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R24     15K           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R25     150K          R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R26     10K           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R27     27K           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R28     2K            R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R29     TBD           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R30     22K           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R31     330           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R32     330           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R33     10K           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R34     10K           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R35     10K           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R36     10K           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R37     TBD           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R38     10K           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R39     10K           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R40     10K           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R41     10K           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R43     330           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R44     330           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R47     10K           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R48     10K           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R49     10K           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R50     1M            R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R51     1M            R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R52     330K          R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R53     680K          R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+R54     220           R-EU_0204/7          0204/7       RESISTOR, European symbol                                      
+SDC                   MA04-1               MA04-1       PIN HEADER                                                     
+SDCARD                FE07W                FE07W        FEMALE HEADER                                                  
+SP      TBD           KSS1201              KSS1201      SPEAKER                                                        

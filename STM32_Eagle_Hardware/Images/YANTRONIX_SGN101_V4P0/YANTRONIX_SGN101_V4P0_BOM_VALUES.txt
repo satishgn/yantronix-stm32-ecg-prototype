@@ -1,0 +1,52 @@
+Partlist exported from C:/Users/Satish/Documents/EAGLE/YANTRONIX/Project/Yantronix_ECG_Alpha/Yantronix_ECG_Alpha.sch at 5/20/2011 3:47:49 PM
+
+Qty Value                       Device                      Parts                                                              
+6                               SJ                          SJ2, SJ3, SJ4, SJ5, SJ6, SJ7                                       
+5                               SJ2W                        SJ1, SJ8, SJ9, SJ10, SJ11                                          
+5                               TAC-SWITCHPTH               S1, S2, S3, S4, S5                                                 
+1   0.01uF                      CAPACITOR0805               C8                                                                 
+13  0.1uF                       CAPACITOR0805               C5, C6, C9, C10, C11, C12, C13, C15, C16, C17, C18, C19, C23       
+1   1K                          RESISTOR0805                R12                                                                
+1   1K5                         RESISTOR0805                R21                                                                
+4   1M                          RESISTOR0805                R14, R28, R29, R43                                                 
+2   2.2uF                       CAPACITOR0805               C2, C3                                                             
+2   6.8pF                       CAPACITOR0805               C24, C25                                                           
+1   8MHz                        CRYSTALHC49S                Q5                                                                 
+12  10K                         RESISTOR0805                R11, R22, R34, R35, R36, R37, R38, R39, R40, R45, R46, R47         
+4   10uF                        POL-CAPACITOR1206           C1, C7, C14, C20                                                   
+1   15K                         RESISTOR0805                R25                                                                
+1   22K                         RESISTOR0805                R26                                                                
+2   22R                         RESISTOR0805                R7, R8                                                             
+2   27pF                        CAPACITOR0805               C21, C22                                                           
+1   32KHz                       CRYSTALTC26H                Q6                                                                 
+1   33K                         RESISTOR0805                R41                                                                
+1   33nF                        CAPACITOR0805               C4                                                                 
+1   36K                         RESISTOR0805                R23                                                                
+1   47K                         RESISTOR0805                R24                                                                
+15  100K                        RESISTOR0805                R1, R2, R3, R5, R6, R9, R10, R13, R17, R18, R19, R20, R27, R42, R44
+1   100R                        RESISTOR0805                R16                                                                
+1   140K                        RESISTOR0805                R4                                                                 
+1   330K                        RESISTOR0805                R30                                                                
+2   330R                        RESISTOR0805                R32, R33                                                           
+1   680K                        RESISTOR0805                R31                                                                
+1   AD623RM                     AD623RM                     IC4                                                                
+1   AD8607RM                    AD8607RM                    IC5                                                                
+1   AUDIO-JACKPTH               AUDIO-JACKPTH               CN8                                                                
+2   BAT60J                      BAT60J                      D1, D2                                                             
+1   BATTERY                     BATTERY                     BAT1                                                               
+2   BC817-40SMD                 BC817-40SMD                 Q3, Q4                                                             
+2   BSS123                      BSS123                      Q1, Q2                                                             
+1   DM3D-SF                     DM3D-SF                     CN2                                                                
+1   EXT-CON                     FE13-2W                     CN5                                                                
+2   FIDUCIAL1.5X3               FIDUCIAL1.5X3               JP1, JP2                                                           
+1   Ferrite Bead                INDUCTOR0805                L1                                                                 
+1   LP3982IMM                   LP3982IMM                   IC2                                                                
+1   MINI-USB-SHIELD-UX60-MB-5ST MINI-USB-SHIELD-UX60-MB-5ST CN1                                                                
+1   OPEN                        RESISTOR0805                R15                                                                
+1   PL-E128649B                 PL-E128649B                 CN3                                                                
+1   PU-PD                       MA04-1                      CN6                                                                
+1   RA-LA-RL                    MA03-1                      CN7                                                                
+1   SN74LVC2G02                 SN74LVC2G02                 IC1                                                                
+1   STM32F10XRXT6               STM32F10XRXT6               IC6                                                                
+1   SWD                         FE05W                       CN4                                                                
+1   USBLC6-2SC6                 USBLC6-2SC6                 IC3                                                                
