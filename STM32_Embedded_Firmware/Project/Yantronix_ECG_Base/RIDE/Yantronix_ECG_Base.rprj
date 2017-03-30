@@ -1,0 +1,4 @@
+
+<Project Header="Project 'Yantronix_ECG_Base'" Path=".\Yantronix_ECG_Base.rprj" Project="Yes" AsyncBuild="" OutputFile="" sate="96" ActiveApp="Yantronix_ECG_Base" >
+	<ApplicationBuild Header="Yantronix_ECG_Base" Extern=".\Yantronix_ECG_Base.rapp" Path=".\Yantronix_ECG_Base.rapp" AsyncBuild="" OutputFile="obj\Yantronix_ECG_Base.elf" sate="98" Config="STM32_SGN-10X_HD" />
+</Project>

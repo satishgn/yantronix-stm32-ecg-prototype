@@ -1,0 +1,4 @@
+
+<Project Header="Project 'SysTick'" Path=".\SysTick.rprj" Project="Yes" OutputFile="" sate="96" ActiveApp="SysTick" AsyncBuild="" >
+	<ApplicationBuild Header="SysTick" Extern=".\SysTick.rapp" Path=".\SysTick.rapp" OutputFile="obj\SysTick.elf" sate="98" Config="STM32_SGN-10X_HD" AsyncBuild="" />
+</Project>

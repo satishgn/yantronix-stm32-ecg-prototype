@@ -1,0 +1,106 @@
+
+<Debug>
+	<Yantronix_ECG_Alpha/>
+	<Flags>
+		<Report>
+			<Def Header="FlagReport" NbCol="9" >
+				<Col Type="PT_BOOL" Header="Check" sizeCache="18" AutoSize="0" Edit="1" Sortable="1" Icon="C:\Program Files\Raisonance\Ride\Config\Resources\check.bmp" />
+				<Col Type="PT_STRING" Header="Kind" sizeCache="DDDDDDDDDDD" AutoSize="1" Edit="0" Sortable="1" />
+				<Col Type="PT_STRING" Header="KindID" sizeCache="DD" AutoSize="1" Edit="0" Sortable="1" Visible="0" />
+				<Col Type="PT_STRING" Header="Space" sizeCache="DDDDDD" AutoSize="1" Edit="0" Sortable="1" />
+				<Col Type="PT_STRING" Header="SpaceID" sizeCache="DD" AutoSize="0" Edit="0" Sortable="0" Visible="0" />
+				<Col Type="PT_STRING" Header="Line" sizeCache="DDDDDDDDD" AutoSize="1" Edit="0" Sortable="1" Visible="1" />
+				<Col Type="PT_STRING" Header="File" sizeCache="DDDDDDDDDDDDDDDDDDDD" AutoSize="1" Edit="0" Sortable="1" Visible="1" />
+				<Col Type="PT_STRING" Header="Path" sizeCache="DDDDDDDDDDDDDDDDDDDD" AutoSize="1" Edit="0" Sortable="0" Visible="0" />
+				<Col Type="PT_STRING" Header="Condition" sizeCache="DDDDDDDDDDDDDDDDDDDDDDDD" AutoSize="1" Edit="0" Sortable="0" />
+				<Col Type="PT_STRING" Header="Condexpr" sizeCache="DD" AutoSize="1" Edit="0" Sortable="0" Visible="0" />
+				<Col Type="PT_STRING" Header="Condcount" sizeCache="DD" AutoSize="1" Edit="0" Sortable="0" Visible="0" />
+							
+			</Def>
+			<Rows/>
+					
+		</Report>
+			
+	</Flags>
+	<Views/>
+	<Grep>
+		<GrepIncludeSub>yes</GrepIncludeSub>
+		<GrepMatchCase>no</GrepMatchCase>
+		<GrepMatchWhole>no</GrepMatchWhole>
+		<GrepRegExp>no</GrepRegExp>
+		<GrepReplaceMode>no</GrepReplaceMode>
+		<GrepFileTypes>
+			<GrepFileTypesValue>*.c;*.h</GrepFileTypesValue>
+			<GrepFileType>*.c;*.h</GrepFileType>
+		</GrepFileTypes>
+		<GrepFindWhat>
+			<GrepFindWhatValue/>
+		</GrepFindWhat>
+		<GrepFindWhere>
+			<GrepFindWhereValue/>
+			<GrepPathStr>Application Files</GrepPathStr>
+			<GrepPathStr>Application Path</GrepPathStr>
+		</GrepFindWhere>
+		<GrepReplaceWhat>
+			<GrepReplaceWhatValue/>
+		</GrepReplaceWhat>
+	</Grep>
+	<FindStrings>
+		<Find>xv[</Find>
+		<Find>xv</Find>
+		<Find>QRS_Lower_Threshold</Find>
+		<Find>QRS_Upper_Threshold</Find>
+		<Find>Draw_LCD_Trace</Find>
+		<Find>dataSample</Find>
+		<Find>HeartSymbol_SET_9x7_Table</Find>
+		<Find>Battery</Find>
+		<Find>USB_Cable_Config</Find>
+		<Find>Set_USBClock</Find>
+		<Find>Calendar_DateDisplay</Find>
+		<Find>2</Find>
+		<Find>GPIO_PIN_DEBOUNCE_DELAY</Find>
+		<Find>STOPMODE_SYSTEM_SHUTDOWN</Find>
+		<Find>STOPModeStatus</Find>
+		<Find>AlarmStatus</Find>
+		<Find>Delay</Find>
+		<Find>AUTO_SHUTDOWN_ENABLED</Find>
+		<Find>System_Shutdown</Find>
+		<Find>SDCardDetectIntExtOnOffConfig</Find>
+		<Find>LowPower_EnterSTOPMode_EXTI_RTCAlarm</Find>
+		<Find>SystemCoreClock</Find>
+		<Find>LOWPOWER_STOPMODE_ENABLED</Find>
+		<Find>20)</Find>
+		<Find>20</Find>
+		<Find>Set_LowPower_StopMode_Time</Find>
+		<Find>LOW_POWER_STOP_MODE</Find>
+		<Find>IWDG_ReloadCounter</Find>
+		<Find>Set_IWDG_ReloadCounter_Time</Find>
+		<Find>IWDG_ReloadCounter_RTC_Counter</Find>
+		<Find>IWDG_ReloadCounter_Time</Find>
+		<Find>Enable_IWDG</Find>
+		<Find>Menu_STM32Intro</Find>
+		<Find>LCD_SetBackLight</Find>
+		<Find>Set_LCD_BackLight_Time</Find>
+		<Find>Shutdown_System</Find>
+		<Find>Menu_DisplayMenu</Find>
+		<Find>Menu_ShowMenuIcons</Find>
+		<Find>Menu_ReturnMainMenu</Find>
+		<Find>RTC_GetCounter</Find>
+		<Find>EnterAutoShutdownMode_RTCAlarm</Find>
+		<Find>Shut</Find>
+		<Find>REGULATOR_FAULT_DETECTED</Find>
+		<Find>!Regulator_Fault</Find>
+		<Find>Regulator_Fault</Find>
+		<Find>Regulator_Fault_Detect</Find>
+		<Find>RegulatorFaultIntExtOnOffConfig</Find>
+		<Find>SD_CARD_DETECT</Find>
+		<Find>EXTI15</Find>
+		<Find>IRQ</Find>
+		<Find>SysTick_Configuration</Find>
+		<Find>SD_Detect</Find>
+		<Find>DFU</Find>
+	</FindStrings>
+	<ReplaceStrings>
+		<Find>System_Shutdown</Find>
+	</ReplaceStrings>
+</Debug>

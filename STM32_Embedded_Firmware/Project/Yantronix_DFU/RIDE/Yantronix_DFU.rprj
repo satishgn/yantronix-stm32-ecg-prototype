@@ -1,0 +1,4 @@
+
+<Project Header="Project 'Yantronix_DFU'" Path=".\Yantronix_DFU.rprj" Project="Yes" OutputFile="" sate="96" ActiveApp="Yantronix_DFU" AsyncBuild="" >
+	<ApplicationBuild Header="Yantronix_DFU" Extern=".\Yantronix_DFU.rapp" Path=".\Yantronix_DFU.rapp" OutputFile="obj\Yantronix_DFU.elf" sate="98" Config="STM32_SGN-10X_HD" AsyncBuild="" />
+</Project>

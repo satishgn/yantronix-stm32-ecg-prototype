@@ -1,0 +1,4 @@
+
+<Project Header="Project 'Yantronix_VCP'" Path=".\Yantronix_VCP.rprj" Project="Yes" OutputFile="" sate="96" ActiveApp="Yantronix_VCP" AsyncBuild="" >
+	<ApplicationBuild Header="Yantronix_VCP" Extern=".\Yantronix_VCP.rapp" Path=".\Yantronix_VCP.rapp" OutputFile="obj\Yantronix_VCP.elf" sate="98" Config="STM32-SGN101-HD" AsyncBuild="" />
+</Project>

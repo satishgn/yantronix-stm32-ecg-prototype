@@ -1,0 +1,1 @@
+In modern PCs, USB is the standard communication port for almost all peripherals. However many industrial software applications still use the classic COM Port (UART). The Virtual COM Port application provides a simple solution to bypass this problem; it uses the USB-FS-Device as a COM port by affecting the legacy PC application designed for COM Port communication.

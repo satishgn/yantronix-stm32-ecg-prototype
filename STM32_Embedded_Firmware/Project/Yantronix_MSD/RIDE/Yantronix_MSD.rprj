@@ -1,0 +1,4 @@
+
+<Project Header="Project 'Yantronix_MSD'" Path=".\Yantronix_MSD.rprj" Project="Yes" OutputFile="" sate="96" ActiveApp="Yantronix_MSD" AsyncBuild="" >
+	<ApplicationBuild Header="Yantronix_MSD" Extern=".\Yantronix_MSD.rapp" Path=".\Yantronix_MSD.rapp" OutputFile="obj\Yantronix_MSD.elf" sate="98" Config="STM32-SGN101-HD" AsyncBuild="" />
+</Project>

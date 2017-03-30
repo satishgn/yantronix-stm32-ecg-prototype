@@ -1,0 +1,1 @@
+The Mass Storage application use the STM32F10xxx and STM32L15xxx USB-FS-Device peripheral to communicate with the PC host using the bulk transfer. This application supports the BOT (bulk only transfer) protocol and all needed SCSI (small computer system interface) commands, and is compatible with both Windows XP (SP1/SP2) and Windows 2000 (SP4).

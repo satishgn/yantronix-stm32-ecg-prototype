@@ -1,0 +1,4 @@
+
+<Project Header="Project 'Yantronix_ECG_Pre_Alpha'" Path=".\Yantronix_ECG_Pre_Alpha.rprj" Project="Yes" AsyncBuild="" OutputFile="" sate="96" ActiveApp="Yantronix_ECG_Pre_Alpha" >
+	<ApplicationBuild Header="Yantronix_ECG_Pre_Alpha" Extern=".\Yantronix_ECG_Pre_Alpha.rapp" Path=".\Yantronix_ECG_Pre_Alpha.rapp" AsyncBuild="" OutputFile="obj\Yantronix_ECG_Pre_Alpha.elf" sate="98" Config="STM32-VL-DISCOVERY" />
+</Project>

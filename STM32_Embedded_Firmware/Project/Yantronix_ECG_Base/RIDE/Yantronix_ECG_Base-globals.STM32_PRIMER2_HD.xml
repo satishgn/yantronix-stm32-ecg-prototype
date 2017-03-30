@@ -1,0 +1,561 @@
+<!-- DWF2XML 2.00.01 - Raisonance Dwarf information extractor -->
+<aoffile Header="Yantronix_ECG_Base" Path="obj\Yantronix_ECG_Base.elf">
+ <Def>
+  <Col Header="DeclFile" Desc="File"/>
+  <Col Header="Type" Desc="Type"/>
+  <Col Header="Header" Desc="Name"/>
+ </Def>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <variable Header="xv" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="13" Pointer="No"/>
+ <variable Header="yv" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="14" Pointer="No"/>
+ <variable Header="xv_bp1" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="47" Pointer="No"/>
+ <variable Header="yv_bp1" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="48" Pointer="No"/>
+ <variable Header="xv_bp2" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="49" Pointer="No"/>
+ <variable Header="yv_bp2" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="50" Pointer="No"/>
+ <variable Header="xv_bp3" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="51" Pointer="No"/>
+ <variable Header="yv_bp3" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="52" Pointer="No"/>
+ <variable Header="xv_bp4" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="53" Pointer="No"/>
+ <variable Header="yv_bp4" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="54" Pointer="No"/>
+ <variable Header="xv_bp5" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="55" Pointer="No"/>
+ <variable Header="yv_bp5" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="56" Pointer="No"/>
+ <variable Header="xv_bp6" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="57" Pointer="No"/>
+ <variable Header="yv_bp6" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="58" Pointer="No"/>
+ <variable Header="xv_qrs" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="127" Pointer="No"/>
+ <variable Header="yv_qrs" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="128" Pointer="No"/>
+ <variable Header="filter_type" Icon="2" Type="variable" Desc=":   unsigned int" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\dsp.c" DeclLine="4" Pointer="No"/>
+ <variable Header="scale_factor" Icon="2" Type="variable" Desc=":   unsigned int" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\dsp.c" DeclLine="5" Pointer="No"/>
+ <variable Header="filter_offset" Icon="2" Type="variable" Desc=":   unsigned int" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\dsp.c" DeclLine="6" Pointer="No"/>
+ <type Header="IRQn_Type" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="474" Pointer="No"/>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <type Header="NVIC_Type" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h" DeclLine="147" Pointer="No"/>
+ <type Header="SCB_Type" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h" DeclLine="176" Pointer="No"/>
+ <type Header="SysTick_Type" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h" DeclLine="371" Pointer="No"/>
+ <type Header="FunctionalState" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="523" Pointer="No"/>
+ <type Header="ErrorStatus" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="526" Pointer="No"/>
+ <type Header="ADC_TypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="566" Pointer="No"/>
+ <type Header="DMA_Channel_TypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="806" Pointer="No"/>
+ <type Header="GPIO_TypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="1012" Pointer="No"/>
+ <type Header="TIM_TypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="1230" Pointer="No"/>
+ <type Header="ADC_InitTypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h" DeclLine="74" Pointer="No"/>
+ <type Header="DAC_InitTypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h" DeclLine="65" Pointer="No"/>
+ <type Header="DMA_InitTypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h" DeclLine="85" Pointer="No"/>
+ <type Header="EXTIMode_TypeDef" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h" DeclLine="54" Pointer="No"/>
+ <type Header="EXTITrigger_TypeDef" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h" DeclLine="67" Pointer="No"/>
+ <type Header="EXTI_InitTypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h" DeclLine="89" Pointer="No"/>
+ <type Header="GPIOSpeed_TypeDef" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h" DeclLine="63" Pointer="No"/>
+ <type Header="GPIOMode_TypeDef" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h" DeclLine="80" Pointer="No"/>
+ <type Header="GPIO_InitTypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h" DeclLine="101" Pointer="No"/>
+ <type Header="NVIC_InitTypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h" DeclLine="68" Pointer="No"/>
+ <type Header="ENDPOINT_INFO" Icon="1" Type="type" Desc=": struct _ENDPOINT_INFO" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="84" Pointer="No"/>
+ <type Header="uint16_t_uint8_t" Icon="1" Type="type" Desc=": union " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="104" Pointer="No"/>
+ <type Header="DEVICE_INFO" Icon="1" Type="type" Desc=": struct _DEVICE_INFO" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="122" Pointer="No"/>
+ <func Header="IntToUnicode" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="493"/>
+ <func Header="NVIC_SetPriority" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h" DeclLine="0"/>
+ <func Header="Set_USBClock" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="306"/>
+ <func Header="Enter_LowPowerMode" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="330"/>
+ <func Header="Leave_LowPowerMode" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="343"/>
+ <func Header="USB_Cable_Config" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="396"/>
+ <func Header="Get_SerialNum" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="469"/>
+ <func Header="NVIC_Configuration" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="545"/>
+ <func Header="GPIO_Configuration" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="639"/>
+ <func Header="POWER_EXTI_Configuration" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="821"/>
+ <func Header="SysTick_Configuration" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="904"/>
+ <func Header="Delay" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="924"/>
+ <func Header="Set_System" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="231"/>
+ <func Header="Decrement_TimingDelay" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="973"/>
+ <func Header="Device_Config_Report" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="982"/>
+ <func Header="ADC_DMA_TIM_Configuration" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="1156"/>
+ <func Header="ADC_DMA_Reset_Data" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="1329"/>
+ <func Header="ADC_DMA_Process_Data" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="1356"/>
+ <func Header="DAC_DMA_TIM_Configuration" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="1468"/>
+ <func Header="System_Shutdown" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="1906"/>
+ <func Header="DFU_Start" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="1931"/>
+ <variable Header="TimingDelay" Icon="2" Type="variable" Desc=":   unsigned long" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="87" Pointer="No"/>
+ <variable Header="xv" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="13" Pointer="No"/>
+ <variable Header="yv" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="14" Pointer="No"/>
+ <variable Header="xv_bp1" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="47" Pointer="No"/>
+ <variable Header="yv_bp1" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="48" Pointer="No"/>
+ <variable Header="xv_bp2" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="49" Pointer="No"/>
+ <variable Header="yv_bp2" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="50" Pointer="No"/>
+ <variable Header="xv_bp3" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="51" Pointer="No"/>
+ <variable Header="yv_bp3" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="52" Pointer="No"/>
+ <variable Header="xv_bp4" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="53" Pointer="No"/>
+ <variable Header="yv_bp4" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="54" Pointer="No"/>
+ <variable Header="xv_bp5" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="55" Pointer="No"/>
+ <variable Header="yv_bp5" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="56" Pointer="No"/>
+ <variable Header="xv_bp6" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="57" Pointer="No"/>
+ <variable Header="yv_bp6" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="58" Pointer="No"/>
+ <variable Header="xv_qrs" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="127" Pointer="No"/>
+ <variable Header="yv_qrs" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="128" Pointer="No"/>
+ <variable Header="HSEStartUpStatus" Icon="2" Type="variable" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="34" Pointer="No"/>
+ <variable Header="PrevXferComplete" Icon="2" Type="variable" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="36" Pointer="No"/>
+ <variable Header="ADC_Channel" Icon="2" Type="variable" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="40" Pointer="No"/>
+ <variable Header="DATA_Buff" Icon="2" Type="variable" Desc=":   unsigned int[62]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="41" Pointer="No"/>
+ <variable Header="pDataBuff" Icon="2" Type="variable" Desc=":   unsigned int CODE*" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="42" Pointer="Yes"/>
+ <variable Header="OVS_DATA_Buff" Icon="2" Type="variable" Desc=":   unsigned int[128]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="44" Pointer="No"/>
+ <variable Header="Data_Buff_Index" Icon="2" Type="variable" Desc=":   unsigned int" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="45" Pointer="No"/>
+ <variable Header="SineFreqTable" Icon="2" Type="variable" Desc=":   unsigned int[6]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="55" Pointer="No"/>
+ <variable Header="SineFreqIndex" Icon="2" Type="variable" Desc=":   unsigned int" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="56" Pointer="No"/>
+ <variable Header="Sine12bit" Icon="2" Type="variable" Desc=":   unsigned int[32]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="57" Pointer="No"/>
+ <variable Header="CONFIG_Buff" Icon="2" Type="variable" Desc=":   unsigned int[31]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="75" Pointer="No"/>
+ <variable Header="Config_Report_Id" Icon="2" Type="variable" Desc=":   unsigned int" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="76" Pointer="No"/>
+ <variable Header="Data_Report_Id" Icon="2" Type="variable" Desc=":   unsigned int" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\hw_config.c" DeclLine="77" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <func Header="main" Icon="3" Type="func" Desc=":   long" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\main.c" DeclLine="35"/>
+ <variable Header="xv" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="13" Pointer="No"/>
+ <variable Header="yv" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="14" Pointer="No"/>
+ <variable Header="xv_bp1" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="47" Pointer="No"/>
+ <variable Header="yv_bp1" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="48" Pointer="No"/>
+ <variable Header="xv_bp2" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="49" Pointer="No"/>
+ <variable Header="yv_bp2" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="50" Pointer="No"/>
+ <variable Header="xv_bp3" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="51" Pointer="No"/>
+ <variable Header="yv_bp3" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="52" Pointer="No"/>
+ <variable Header="xv_bp4" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="53" Pointer="No"/>
+ <variable Header="yv_bp4" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="54" Pointer="No"/>
+ <variable Header="xv_bp5" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="55" Pointer="No"/>
+ <variable Header="yv_bp5" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="56" Pointer="No"/>
+ <variable Header="xv_bp6" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="57" Pointer="No"/>
+ <variable Header="yv_bp6" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="58" Pointer="No"/>
+ <variable Header="xv_qrs" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="127" Pointer="No"/>
+ <variable Header="yv_qrs" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="128" Pointer="No"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <func Header="NMI_Handler" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\stm32f10x_it.c" DeclLine="61"/>
+ <func Header="HardFault_Handler" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\stm32f10x_it.c" DeclLine="70"/>
+ <func Header="MemManage_Handler" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\stm32f10x_it.c" DeclLine="83"/>
+ <func Header="BusFault_Handler" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\stm32f10x_it.c" DeclLine="96"/>
+ <func Header="UsageFault_Handler" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\stm32f10x_it.c" DeclLine="109"/>
+ <func Header="SVC_Handler" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\stm32f10x_it.c" DeclLine="122"/>
+ <func Header="DebugMon_Handler" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\stm32f10x_it.c" DeclLine="131"/>
+ <func Header="PendSV_Handler" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\stm32f10x_it.c" DeclLine="140"/>
+ <func Header="SysTick_Handler" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\stm32f10x_it.c" DeclLine="149"/>
+ <func Header="USB_LP_CAN1_RX0_IRQHandler" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\stm32f10x_it.c" DeclLine="208"/>
+ <func Header="DMA1_Channel1_IRQHandler" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\stm32f10x_it.c" DeclLine="260"/>
+ <func Header="EXTI9_5_IRQHandler" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\stm32f10x_it.c" DeclLine="357"/>
+ <variable Header="xv" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="13" Pointer="No"/>
+ <variable Header="yv" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="14" Pointer="No"/>
+ <variable Header="xv_bp1" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="47" Pointer="No"/>
+ <variable Header="yv_bp1" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="48" Pointer="No"/>
+ <variable Header="xv_bp2" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="49" Pointer="No"/>
+ <variable Header="yv_bp2" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="50" Pointer="No"/>
+ <variable Header="xv_bp3" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="51" Pointer="No"/>
+ <variable Header="yv_bp3" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="52" Pointer="No"/>
+ <variable Header="xv_bp4" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="53" Pointer="No"/>
+ <variable Header="yv_bp4" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="54" Pointer="No"/>
+ <variable Header="xv_bp5" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="55" Pointer="No"/>
+ <variable Header="yv_bp5" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="56" Pointer="No"/>
+ <variable Header="xv_bp6" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="57" Pointer="No"/>
+ <variable Header="yv_bp6" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="58" Pointer="No"/>
+ <variable Header="xv_qrs" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="127" Pointer="No"/>
+ <variable Header="yv_qrs" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="128" Pointer="No"/>
+ <variable Header="OVS_Data_Buff_Index" Icon="2" Type="variable" Desc=":   unsigned int" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\stm32f10x_it.c" DeclLine="40" Pointer="No"/>
+ <variable Header="OVS_Data_Accumulated_Result" Icon="2" Type="variable" Desc=":   unsigned long" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\stm32f10x_it.c" DeclLine="41" Pointer="No"/>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <type Header="SCB_Type" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h" DeclLine="176" Pointer="No"/>
+ <type Header="FLASH_TypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="922" Pointer="No"/>
+ <type Header="RCC_TypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="1100" Pointer="No"/>
+ <func Header="SystemInit" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\system_stm32f10x.c" DeclLine="212"/>
+ <variable Header="SystemCoreClock" Icon="2" Type="variable" Desc=":   unsigned long" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\system_stm32f10x.c" DeclLine="162" Pointer="No"/>
+ <variable Header="AHBPrescTable" Icon="2" Type="variable" Desc=":   unsigned char[16]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\system_stm32f10x.c" DeclLine="167" Pointer="No"/>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <variable Header="xv" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="13" Pointer="No"/>
+ <variable Header="yv" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="14" Pointer="No"/>
+ <variable Header="xv_bp1" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="47" Pointer="No"/>
+ <variable Header="yv_bp1" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="48" Pointer="No"/>
+ <variable Header="xv_bp2" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="49" Pointer="No"/>
+ <variable Header="yv_bp2" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="50" Pointer="No"/>
+ <variable Header="xv_bp3" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="51" Pointer="No"/>
+ <variable Header="yv_bp3" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="52" Pointer="No"/>
+ <variable Header="xv_bp4" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="53" Pointer="No"/>
+ <variable Header="yv_bp4" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="54" Pointer="No"/>
+ <variable Header="xv_bp5" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="55" Pointer="No"/>
+ <variable Header="yv_bp5" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="56" Pointer="No"/>
+ <variable Header="xv_bp6" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="57" Pointer="No"/>
+ <variable Header="yv_bp6" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="58" Pointer="No"/>
+ <variable Header="xv_qrs" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="127" Pointer="No"/>
+ <variable Header="yv_qrs" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="128" Pointer="No"/>
+ <variable Header="CustomHID_DeviceDescriptor" Icon="2" Type="variable" Desc=":   unsigned char[18]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_desc.c" DeclLine="28" Pointer="No"/>
+ <variable Header="CustomHID_ConfigDescriptor" Icon="2" Type="variable" Desc=":   unsigned char[41]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_desc.c" DeclLine="56" Pointer="No"/>
+ <variable Header="CustomHID_ReportDescriptor" Icon="2" Type="variable" Desc=":   unsigned char[127]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_desc.c" DeclLine="116" Pointer="No"/>
+ <variable Header="CustomHID_StringLangID" Icon="2" Type="variable" Desc=":   unsigned char[4]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_desc.c" DeclLine="187" Pointer="No"/>
+ <variable Header="CustomHID_StringVendor" Icon="2" Type="variable" Desc=":   unsigned char[38]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_desc.c" DeclLine="195" Pointer="No"/>
+ <variable Header="CustomHID_StringProduct" Icon="2" Type="variable" Desc=":   unsigned char[32]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_desc.c" DeclLine="205" Pointer="No"/>
+ <variable Header="CustomHID_StringSerial" Icon="2" Type="variable" Desc=":   unsigned char[26]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_desc.c" DeclLine="214" Pointer="No"/>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <type Header="GPIO_TypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="1012" Pointer="No"/>
+ <type Header="BitAction" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h" DeclLine="111" Pointer="No"/>
+ <func Header="EP1_OUT_Callback" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_endp.c" DeclLine="51"/>
+ <func Header="EP1_IN_Callback" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_endp.c" DeclLine="213"/>
+ <variable Header="xv" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="13" Pointer="No"/>
+ <variable Header="yv" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="14" Pointer="No"/>
+ <variable Header="xv_bp1" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="47" Pointer="No"/>
+ <variable Header="yv_bp1" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="48" Pointer="No"/>
+ <variable Header="xv_bp2" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="49" Pointer="No"/>
+ <variable Header="yv_bp2" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="50" Pointer="No"/>
+ <variable Header="xv_bp3" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="51" Pointer="No"/>
+ <variable Header="yv_bp3" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="52" Pointer="No"/>
+ <variable Header="xv_bp4" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="53" Pointer="No"/>
+ <variable Header="yv_bp4" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="54" Pointer="No"/>
+ <variable Header="xv_bp5" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="55" Pointer="No"/>
+ <variable Header="yv_bp5" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="56" Pointer="No"/>
+ <variable Header="xv_bp6" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="57" Pointer="No"/>
+ <variable Header="yv_bp6" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="58" Pointer="No"/>
+ <variable Header="xv_qrs" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="127" Pointer="No"/>
+ <variable Header="yv_qrs" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="128" Pointer="No"/>
+ <variable Header="Receive_Buffer" Icon="2" Type="variable" Desc=":   unsigned char[64]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_endp.c" DeclLine="23" Pointer="No"/>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="bool" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_type.h" DeclLine="66" Pointer="No"/>
+ <type Header="RESULT" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="52" Pointer="No"/>
+ <type Header="DEVICE_PROP" Icon="1" Type="type" Desc=": struct _DEVICE_PROP" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="182" Pointer="No"/>
+ <func Header="USB_Istr" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_istr.c" DeclLine="61"/>
+ <variable Header="xv" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="13" Pointer="No"/>
+ <variable Header="yv" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="14" Pointer="No"/>
+ <variable Header="xv_bp1" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="47" Pointer="No"/>
+ <variable Header="yv_bp1" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="48" Pointer="No"/>
+ <variable Header="xv_bp2" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="49" Pointer="No"/>
+ <variable Header="yv_bp2" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="50" Pointer="No"/>
+ <variable Header="xv_bp3" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="51" Pointer="No"/>
+ <variable Header="yv_bp3" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="52" Pointer="No"/>
+ <variable Header="xv_bp4" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="53" Pointer="No"/>
+ <variable Header="yv_bp4" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="54" Pointer="No"/>
+ <variable Header="xv_bp5" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="55" Pointer="No"/>
+ <variable Header="yv_bp5" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="56" Pointer="No"/>
+ <variable Header="xv_bp6" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="57" Pointer="No"/>
+ <variable Header="yv_bp6" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="58" Pointer="No"/>
+ <variable Header="xv_qrs" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="127" Pointer="No"/>
+ <variable Header="yv_qrs" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="128" Pointer="No"/>
+ <variable Header="wIstr" Icon="2" Type="variable" Desc=":   unsigned int" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_istr.c" DeclLine="23" Pointer="No"/>
+ <variable Header="bIntPackSOF" Icon="2" Type="variable" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_istr.c" DeclLine="24" Pointer="No"/>
+ <variable Header="pEpInt_IN" Icon="2" Type="variable" Desc=":   void CODE*[7]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_istr.c" DeclLine="30" Pointer="No"/>
+ <variable Header="pEpInt_OUT" Icon="2" Type="variable" Desc=":   void CODE*[7]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_istr.c" DeclLine="41" Pointer="No"/>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <type Header="ONE_DESCRIPTOR" Icon="1" Type="type" Desc=": struct OneDescriptor" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="41" Pointer="No"/>
+ <type Header="RESULT" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="52" Pointer="No"/>
+ <type Header="ENDPOINT_INFO" Icon="1" Type="type" Desc=": struct _ENDPOINT_INFO" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="84" Pointer="No"/>
+ <type Header="DEVICE" Icon="1" Type="type" Desc=": struct _DEVICE" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="93" Pointer="No"/>
+ <type Header="uint16_t_uint8_t" Icon="1" Type="type" Desc=": union " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="104" Pointer="No"/>
+ <type Header="DEVICE_INFO" Icon="1" Type="type" Desc=": struct _DEVICE_INFO" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="122" Pointer="No"/>
+ <type Header="DEVICE_PROP" Icon="1" Type="type" Desc=": struct _DEVICE_PROP" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="182" Pointer="No"/>
+ <type Header="USER_STANDARD_REQUESTS" Icon="1" Type="type" Desc=": struct _USER_STANDARD_REQUESTS" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="196" Pointer="No"/>
+ <func Header="CustomHID_SetConfiguration" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="184"/>
+ <func Header="CustomHID_SetDeviceAddress" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="203"/>
+ <func Header="CustomHID_Status_In" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="215"/>
+ <func Header="CustomHID_Status_Out" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="226"/>
+ <func Header="CustomHID_Data_Setup" Icon="3" Type="func" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="237"/>
+ <func Header="CustomHID_Get_Interface_Setting" Icon="3" Type="func" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="375"/>
+ <func Header="CustomHID_GetProtocolValue" Icon="3" Type="func" Desc=":   unsigned char CODE*" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="409"/>
+ <func Header="CustomHID_GetHIDDescriptor" Icon="3" Type="func" Desc=":   unsigned char CODE*" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="361"/>
+ <func Header="CustomHID_GetReportDescriptor" Icon="3" Type="func" Desc=":   unsigned char CODE*" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="349"/>
+ <func Header="CustomHID_GetStringDescriptor" Icon="3" Type="func" Desc=":   unsigned char CODE*" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="329"/>
+ <func Header="CustomHID_GetConfigDescriptor" Icon="3" Type="func" Desc=":   unsigned char CODE*" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="317"/>
+ <func Header="CustomHID_GetDeviceDescriptor" Icon="3" Type="func" Desc=":   unsigned char CODE*" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="305"/>
+ <func Header="CustomHID_Reset" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="131"/>
+ <func Header="CustomHID_init" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="109"/>
+ <func Header="CustomHID_SetProtocol" Icon="3" Type="func" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="395"/>
+ <func Header="CustomHID_NoData_Setup" Icon="3" Type="func" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="284"/>
+ <variable Header="xv" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="13" Pointer="No"/>
+ <variable Header="yv" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="14" Pointer="No"/>
+ <variable Header="xv_bp1" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="47" Pointer="No"/>
+ <variable Header="yv_bp1" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="48" Pointer="No"/>
+ <variable Header="xv_bp2" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="49" Pointer="No"/>
+ <variable Header="yv_bp2" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="50" Pointer="No"/>
+ <variable Header="xv_bp3" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="51" Pointer="No"/>
+ <variable Header="yv_bp3" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="52" Pointer="No"/>
+ <variable Header="xv_bp4" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="53" Pointer="No"/>
+ <variable Header="yv_bp4" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="54" Pointer="No"/>
+ <variable Header="xv_bp5" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="55" Pointer="No"/>
+ <variable Header="yv_bp5" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="56" Pointer="No"/>
+ <variable Header="xv_bp6" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="57" Pointer="No"/>
+ <variable Header="yv_bp6" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="58" Pointer="No"/>
+ <variable Header="xv_qrs" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="127" Pointer="No"/>
+ <variable Header="yv_qrs" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="128" Pointer="No"/>
+ <variable Header="Device_Property" Icon="2" Type="variable" Desc=":   struct _DEVICE_PROP" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="36" Pointer="No"/>
+ <variable Header="User_Standard_Requests" Icon="2" Type="variable" Desc=":   struct _USER_STANDARD_REQUESTS" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="52" Pointer="No"/>
+ <variable Header="Device_Table" Icon="2" Type="variable" Desc=":   struct _DEVICE" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="30" Pointer="No"/>
+ <variable Header="ProtocolValue" Icon="2" Type="variable" Desc=":   unsigned long" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="23" Pointer="No"/>
+ <variable Header="EXTI_Enable" Icon="2" Type="variable" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="24" Pointer="No"/>
+ <variable Header="Device_Descriptor" Icon="2" Type="variable" Desc=":   struct OneDescriptor" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="65" Pointer="No"/>
+ <variable Header="Config_Descriptor" Icon="2" Type="variable" Desc=":   struct OneDescriptor" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="71" Pointer="No"/>
+ <variable Header="CustomHID_Report_Descriptor" Icon="2" Type="variable" Desc=":   struct OneDescriptor" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="77" Pointer="No"/>
+ <variable Header="CustomHID_Hid_Descriptor" Icon="2" Type="variable" Desc=":   struct OneDescriptor" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="83" Pointer="No"/>
+ <variable Header="String_Descriptor" Icon="2" Type="variable" Desc=":   struct OneDescriptor[4]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_prop.c" DeclLine="89" Pointer="No"/>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <type Header="bool" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_type.h" DeclLine="66" Pointer="No"/>
+ <type Header="RESULT" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="52" Pointer="No"/>
+ <type Header="RESUME_STATE" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\usb_pwr.h" DeclLine="32" Pointer="No"/>
+ <func Header="PowerOn" Icon="3" Type="func" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_pwr.c" DeclLine="44"/>
+ <func Header="Suspend" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_pwr.c" DeclLine="102"/>
+ <func Header="Resume_Init" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_pwr.c" DeclLine="138"/>
+ <func Header="Resume" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_pwr.c" DeclLine="181"/>
+ <variable Header="xv" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="13" Pointer="No"/>
+ <variable Header="yv" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="14" Pointer="No"/>
+ <variable Header="xv_bp1" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="47" Pointer="No"/>
+ <variable Header="yv_bp1" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="48" Pointer="No"/>
+ <variable Header="xv_bp2" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="49" Pointer="No"/>
+ <variable Header="yv_bp2" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="50" Pointer="No"/>
+ <variable Header="xv_bp3" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="51" Pointer="No"/>
+ <variable Header="yv_bp3" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="52" Pointer="No"/>
+ <variable Header="xv_bp4" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="53" Pointer="No"/>
+ <variable Header="yv_bp4" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="54" Pointer="No"/>
+ <variable Header="xv_bp5" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="55" Pointer="No"/>
+ <variable Header="yv_bp5" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="56" Pointer="No"/>
+ <variable Header="xv_bp6" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="57" Pointer="No"/>
+ <variable Header="yv_bp6" Icon="2" Type="variable" Desc=":   float[3]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="58" Pointer="No"/>
+ <variable Header="xv_qrs" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="127" Pointer="No"/>
+ <variable Header="yv_qrs" Icon="2" Type="variable" Desc=":   float[5]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\inc\dsp.h" DeclLine="128" Pointer="No"/>
+ <variable Header="bDeviceState" Icon="2" Type="variable" Desc=":   unsigned long" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_pwr.c" DeclLine="23" Pointer="No"/>
+ <variable Header="fSuspendEnabled" Icon="2" Type="variable" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_pwr.c" DeclLine="24" Pointer="No"/>
+ <variable Header="ResumeS" Icon="2" Type="variable" Desc=":   struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Project\Yantronix_ECG_Base\src\usb_pwr.c" DeclLine="30" Pointer="No"/>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <type Header="int16_t" Icon="1" Type="type" Desc=": int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="53" Pointer="No"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="int32_t" Icon="1" Type="type" Desc=": long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="79" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <type Header="NVIC_Type" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h" DeclLine="147" Pointer="No"/>
+ <type Header="SCB_Type" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h" DeclLine="176" Pointer="No"/>
+ <type Header="SysTick_Type" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h" DeclLine="371" Pointer="No"/>
+ <type Header="FunctionalState" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="523" Pointer="No"/>
+ <type Header="NVIC_InitTypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h" DeclLine="68" Pointer="No"/>
+ <func Header="NVIC_PriorityGroupConfig" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c" DeclLine="96"/>
+ <func Header="NVIC_Init" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c" DeclLine="112"/>
+ <func Header="NVIC_SetVectorTable" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c" DeclLine="156"/>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <type Header="FlagStatus" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="521" Pointer="No"/>
+ <type Header="ITStatus" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="521" Pointer="No"/>
+ <type Header="FunctionalState" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="523" Pointer="No"/>
+ <type Header="ADC_TypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="566" Pointer="No"/>
+ <type Header="ADC_InitTypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h" DeclLine="74" Pointer="No"/>
+ <func Header="ADC_Init" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c" DeclLine="218"/>
+ <func Header="ADC_Cmd" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c" DeclLine="299"/>
+ <func Header="ADC_DMACmd" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c" DeclLine="324"/>
+ <func Header="ADC_ResetCalibration" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c" DeclLine="379"/>
+ <func Header="ADC_GetResetCalibrationStatus" Icon="3" Type="func" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c" DeclLine="392"/>
+ <func Header="ADC_StartCalibration" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c" DeclLine="417"/>
+ <func Header="ADC_GetCalibrationStatus" Icon="3" Type="func" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c" DeclLine="430"/>
+ <func Header="ADC_RegularChannelConfig" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c" DeclLine="590"/>
+ <func Header="ADC_ExternalTrigConvCmd" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c" DeclLine="686"/>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <type Header="FlagStatus" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="521" Pointer="No"/>
+ <type Header="ITStatus" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="521" Pointer="No"/>
+ <type Header="FunctionalState" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="523" Pointer="No"/>
+ <type Header="BKP_TypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="665" Pointer="No"/>
+ <func Header="BKP_WriteBackupRegister" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c" DeclLine="222"/>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <type Header="FunctionalState" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="523" Pointer="No"/>
+ <type Header="DAC_TypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="784" Pointer="No"/>
+ <type Header="DAC_InitTypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h" DeclLine="65" Pointer="No"/>
+ <func Header="DAC_Init" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c" DeclLine="117"/>
+ <func Header="DAC_Cmd" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c" DeclLine="173"/>
+ <func Header="DAC_DMACmd" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c" DeclLine="233"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <type Header="FlagStatus" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="521" Pointer="No"/>
+ <type Header="ITStatus" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="521" Pointer="No"/>
+ <type Header="FunctionalState" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="523" Pointer="No"/>
+ <type Header="DMA_Channel_TypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="806" Pointer="No"/>
+ <type Header="DMA_TypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="812" Pointer="No"/>
+ <type Header="DMA_InitTypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h" DeclLine="85" Pointer="No"/>
+ <func Header="DMA_DeInit" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c" DeclLine="108"/>
+ <func Header="DMA_Init" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c" DeclLine="202"/>
+ <func Header="DMA_Cmd" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c" DeclLine="294"/>
+ <func Header="DMA_ITConfig" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c" DeclLine="326"/>
+ <func Header="DMA_ClearFlag" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c" DeclLine="523"/>
+ <func Header="DMA_GetITStatus" Icon="3" Type="func" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c" DeclLine="595"/>
+ <func Header="DMA_ClearITPendingBit" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c" DeclLine="684"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <type Header="FlagStatus" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="521" Pointer="No"/>
+ <type Header="ITStatus" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="521" Pointer="No"/>
+ <type Header="FunctionalState" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="523" Pointer="No"/>
+ <type Header="EXTI_TypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="897" Pointer="No"/>
+ <type Header="EXTIMode_TypeDef" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h" DeclLine="54" Pointer="No"/>
+ <type Header="EXTITrigger_TypeDef" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h" DeclLine="67" Pointer="No"/>
+ <type Header="EXTI_InitTypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h" DeclLine="89" Pointer="No"/>
+ <func Header="EXTI_Init" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c" DeclLine="101"/>
+ <func Header="EXTI_StructInit" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c" DeclLine="157"/>
+ <func Header="EXTI_GetITStatus" Icon="3" Type="func" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c" DeclLine="224"/>
+ <func Header="EXTI_ClearITPendingBit" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c" DeclLine="249"/>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <type Header="FlagStatus" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="521" Pointer="No"/>
+ <type Header="FunctionalState" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="523" Pointer="No"/>
+ <type Header="FLASH_TypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="922" Pointer="No"/>
+ <type Header="OB_TypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="938" Pointer="No"/>
+ <type Header="FLASH_Status" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h" DeclLine="57" Pointer="No"/>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <type Header="u8" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="507" Pointer="No"/>
+ <type Header="FunctionalState" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="523" Pointer="No"/>
+ <type Header="GPIO_TypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="1012" Pointer="No"/>
+ <type Header="AFIO_TypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="1025" Pointer="No"/>
+ <type Header="GPIOSpeed_TypeDef" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h" DeclLine="63" Pointer="No"/>
+ <type Header="GPIOMode_TypeDef" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h" DeclLine="80" Pointer="No"/>
+ <type Header="GPIO_InitTypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h" DeclLine="101" Pointer="No"/>
+ <type Header="BitAction" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h" DeclLine="111" Pointer="No"/>
+ <func Header="GPIO_Init" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c" DeclLine="173"/>
+ <func Header="GPIO_SetBits" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c" DeclLine="358"/>
+ <func Header="GPIO_ResetBits" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c" DeclLine="374"/>
+ <func Header="GPIO_WriteBit" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c" DeclLine="394"/>
+ <func Header="GPIO_EXTILineConfig" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c" DeclLine="609"/>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <type Header="SCB_Type" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h" DeclLine="176" Pointer="No"/>
+ <type Header="FlagStatus" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="521" Pointer="No"/>
+ <type Header="FunctionalState" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="523" Pointer="No"/>
+ <type Header="PWR_TypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="1072" Pointer="No"/>
+ <func Header="PWR_BackupAccessCmd" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c" DeclLine="124"/>
+ <func Header="PWR_WakeUpPinCmd" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c" DeclLine="178"/>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <type Header="FlagStatus" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="521" Pointer="No"/>
+ <type Header="ITStatus" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="521" Pointer="No"/>
+ <type Header="FunctionalState" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="523" Pointer="No"/>
+ <type Header="ErrorStatus" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="526" Pointer="No"/>
+ <type Header="RCC_TypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="1100" Pointer="No"/>
+ <type Header="RCC_ClocksTypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h" DeclLine="53" Pointer="No"/>
+ <func Header="RCC_USBCLKConfig" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c" DeclLine="728"/>
+ <func Header="RCC_AHBPeriphClockCmd" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c" DeclLine="1064"/>
+ <func Header="RCC_APB2PeriphClockCmd" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c" DeclLine="1095"/>
+ <func Header="RCC_APB1PeriphClockCmd" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c" DeclLine="1126"/>
+ <func Header="RCC_GetFlagStatus" Icon="3" Type="func" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c" DeclLine="1326"/>
+ <variable Header="APBAHBPrescTable" Icon="2" Type="variable" Desc=":   unsigned char[16]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c" DeclLine="193" Pointer="No"/>
+ <variable Header="ADCPrescTable" Icon="2" Type="variable" Desc=":   unsigned char[4]" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c" DeclLine="194" Pointer="No"/>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <type Header="FlagStatus" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="521" Pointer="No"/>
+ <type Header="ITStatus" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="521" Pointer="No"/>
+ <type Header="FunctionalState" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="523" Pointer="No"/>
+ <type Header="RTC_TypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="1128" Pointer="No"/>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <type Header="FlagStatus" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="521" Pointer="No"/>
+ <type Header="ITStatus" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="521" Pointer="No"/>
+ <type Header="FunctionalState" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="523" Pointer="No"/>
+ <type Header="TIM_TypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="1230" Pointer="No"/>
+ <type Header="TIM_TimeBaseInitTypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h" DeclLine="74" Pointer="No"/>
+ <type Header="TIM_OCInitTypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h" DeclLine="109" Pointer="No"/>
+ <type Header="TIM_ICInitTypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h" DeclLine="132" Pointer="No"/>
+ <type Header="TIM_BDTRInitTypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h" DeclLine="163" Pointer="No"/>
+ <func Header="TIM_Cmd" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c" DeclLine="806"/>
+ <func Header="TIM_PrescalerConfig" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c" DeclLine="1176"/>
+ <func Header="TIM_SelectOutputTrigger" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c" DeclLine="2202"/>
+ <func Header="TIM_SetAutoreload" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c" DeclLine="2278"/>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <type Header="u16" Icon="1" Type="type" Desc=": unsigned int" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="506" Pointer="No"/>
+ <type Header="FlagStatus" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="521" Pointer="No"/>
+ <type Header="ITStatus" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="521" Pointer="No"/>
+ <type Header="FunctionalState" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="523" Pointer="No"/>
+ <type Header="USART_TypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" DeclLine="1252" Pointer="No"/>
+ <type Header="RCC_ClocksTypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h" DeclLine="53" Pointer="No"/>
+ <type Header="USART_InitTypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h" DeclLine="76" Pointer="No"/>
+ <type Header="USART_ClockInitTypeDef" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h" DeclLine="97" Pointer="No"/>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <type Header="bool" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_type.h" DeclLine="66" Pointer="No"/>
+ <type Header="ONE_DESCRIPTOR" Icon="1" Type="type" Desc=": struct OneDescriptor" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="41" Pointer="No"/>
+ <type Header="RESULT" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="52" Pointer="No"/>
+ <type Header="ENDPOINT_INFO" Icon="1" Type="type" Desc=": struct _ENDPOINT_INFO" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="84" Pointer="No"/>
+ <type Header="DEVICE" Icon="1" Type="type" Desc=": struct _DEVICE" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="93" Pointer="No"/>
+ <type Header="uint16_t_uint8_t" Icon="1" Type="type" Desc=": union " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="104" Pointer="No"/>
+ <type Header="DEVICE_INFO" Icon="1" Type="type" Desc=": struct _DEVICE_INFO" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="122" Pointer="No"/>
+ <type Header="DEVICE_PROP" Icon="1" Type="type" Desc=": struct _DEVICE_PROP" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="182" Pointer="No"/>
+ <type Header="USER_STANDARD_REQUESTS" Icon="1" Type="type" Desc=": struct _USER_STANDARD_REQUESTS" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="196" Pointer="No"/>
+ <func Header="Standard_GetConfiguration" Icon="3" Type="func" Desc=":   unsigned char CODE*" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_core.c" DeclLine="61"/>
+ <func Header="Standard_GetInterface" Icon="3" Type="func" Desc=":   unsigned char CODE*" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_core.c" DeclLine="107"/>
+ <func Header="Standard_GetStatus" Icon="3" Type="func" Desc=":   unsigned char CODE*" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_core.c" DeclLine="163"/>
+ <func Header="DataStageIn" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_core.c" DeclLine="500"/>
+ <func Header="Standard_SetConfiguration" Icon="3" Type="func" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_core.c" DeclLine="82"/>
+ <func Header="Standard_SetInterface" Icon="3" Type="func" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_core.c" DeclLine="128"/>
+ <func Header="Standard_ClearFeature" Icon="3" Type="func" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_core.c" DeclLine="245"/>
+ <func Header="Standard_SetEndPointFeature" Icon="3" Type="func" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_core.c" DeclLine="338"/>
+ <func Header="Standard_SetDeviceFeature" Icon="3" Type="func" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_core.c" DeclLine="392"/>
+ <func Header="Standard_GetDescriptorData" Icon="3" Type="func" Desc=":   unsigned char CODE*" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_core.c" DeclLine="418"/>
+ <func Header="Post0_Process" Icon="3" Type="func" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_core.c" DeclLine="1013"/>
+ <func Header="Out0_Process" Icon="3" Type="func" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_core.c" DeclLine="970"/>
+ <func Header="Setup0_Process" Icon="3" Type="func" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_core.c" DeclLine="876"/>
+ <func Header="SetDeviceAddress" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_core.c" DeclLine="1057"/>
+ <func Header="In0_Process" Icon="3" Type="func" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_core.c" DeclLine="930"/>
+ <func Header="NOP_Process" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_core.c" DeclLine="1081"/>
+ <variable Header="StatusInfo" Icon="2" Type="variable" Desc=":   union " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_core.c" DeclLine="43" Pointer="No"/>
+ <variable Header="Data_Mul_MaxPacketSize" Icon="2" Type="variable" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_core.c" DeclLine="45" Pointer="No"/>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="RESULT" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="52" Pointer="No"/>
+ <type Header="ENDPOINT_INFO" Icon="1" Type="type" Desc=": struct _ENDPOINT_INFO" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="84" Pointer="No"/>
+ <type Header="uint16_t_uint8_t" Icon="1" Type="type" Desc=": union " DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="104" Pointer="No"/>
+ <type Header="DEVICE_INFO" Icon="1" Type="type" Desc=": struct _DEVICE_INFO" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="122" Pointer="No"/>
+ <type Header="DEVICE_PROP" Icon="1" Type="type" Desc=": struct _DEVICE_PROP" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="182" Pointer="No"/>
+ <type Header="USER_STANDARD_REQUESTS" Icon="1" Type="type" Desc=": struct _USER_STANDARD_REQUESTS" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" DeclLine="196" Pointer="No"/>
+ <func Header="USB_Init" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_init.c" DeclLine="53"/>
+ <variable Header="Device_Info" Icon="2" Type="variable" Desc=":   struct _DEVICE_INFO" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_init.c" DeclLine="39" Pointer="No"/>
+ <variable Header="EPindex" Icon="2" Type="variable" Desc=":   unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_init.c" DeclLine="24" Pointer="No"/>
+ <variable Header="pInformation" Icon="2" Type="variable" Desc=":   struct _DEVICE_INFO CODE*" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_init.c" DeclLine="29" Pointer="Yes"/>
+ <variable Header="pProperty" Icon="2" Type="variable" Desc=":   struct _DEVICE_PROP CODE*" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_init.c" DeclLine="32" Pointer="Yes"/>
+ <variable Header="pUser_Standard_Requests" Icon="2" Type="variable" Desc=":   struct _USER_STANDARD_REQUESTS CODE*" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_init.c" DeclLine="40" Pointer="Yes"/>
+ <variable Header="SaveState" Icon="2" Type="variable" Desc=":   unsigned int" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_init.c" DeclLine="37" Pointer="No"/>
+ <variable Header="wInterrupt_Mask" Icon="2" Type="variable" Desc=":   unsigned int" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_init.c" DeclLine="38" Pointer="No"/>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <func Header="CTR_LP" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_int.c" DeclLine="42"/>
+ <variable Header="SaveRState" Icon="2" Type="variable" Desc=":   unsigned int" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_int.c" DeclLine="24" Pointer="No"/>
+ <variable Header="SaveTState" Icon="2" Type="variable" Desc=":   unsigned int" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_int.c" DeclLine="25" Pointer="No"/>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <func Header="UserToPMABufferCopy" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_mem.c" DeclLine="36"/>
+ <func Header="CustomHIDUserToPMABufferCopy" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_mem.c" DeclLine="63"/>
+ <func Header="PMAToUserBufferCopy" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_mem.c" DeclLine="96"/>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <type Header="EP_DBUF_DIR" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\inc\usb_regs.h" DeclLine="30" Pointer="No"/>
+ <func Header="SetBTABLE" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_regs.c" DeclLine="119"/>
+ <func Header="SetEPType" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_regs.c" DeclLine="169"/>
+ <func Header="SetEPTxStatus" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_regs.c" DeclLine="194"/>
+ <func Header="SetEPRxStatus" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_regs.c" DeclLine="207"/>
+ <func Header="SetEPTxValid" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_regs.c" DeclLine="265"/>
+ <func Header="SetEPRxValid" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_regs.c" DeclLine="277"/>
+ <func Header="Clear_Status_Out" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_regs.c" DeclLine="312"/>
+ <func Header="ClearDTOG_RX" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_regs.c" DeclLine="422"/>
+ <func Header="ClearDTOG_TX" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_regs.c" DeclLine="433"/>
+ <func Header="SetEPTxAddr" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_regs.c" DeclLine="468"/>
+ <func Header="SetEPRxAddr" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_regs.c" DeclLine="480"/>
+ <func Header="GetEPTxAddr" Icon="3" Type="func" Desc=":   unsigned int" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_regs.c" DeclLine="491"/>
+ <func Header="GetEPRxAddr" Icon="3" Type="func" Desc=":   unsigned int" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_regs.c" DeclLine="502"/>
+ <func Header="SetEPTxCount" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_regs.c" DeclLine="514"/>
+ <func Header="SetEPRxCount" Icon="3" Type="func" Desc=":   void" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_regs.c" DeclLine="538"/>
+ <func Header="ByteSwap" Icon="3" Type="func" Desc=":   unsigned int" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_regs.c" DeclLine="740"/>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <func Header="USB_SIL_Init" Icon="3" Type="func" Desc=":   unsigned long" DeclFile="C:\Users\Satish\Documents\STM32\YANTRONIX\Libraries\STM32_USB-FS-Device_Driver\src\usb_sil.c" DeclLine="35"/>
+</aoffile>
+

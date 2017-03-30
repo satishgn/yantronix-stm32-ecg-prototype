@@ -1,0 +1,4 @@
+
+<Project Header="Project 'Yantronix_HID'" Path=".\Yantronix_HID.rprj" Project="Yes" OutputFile="" sate="96" ActiveApp="Yantronix_HID" AsyncBuild="" >
+	<ApplicationBuild Header="Yantronix_HID" Extern=".\Yantronix_HID.rapp" Path=".\Yantronix_HID.rapp" OutputFile="obj\Yantronix_HID.elf" sate="98" Config="PRIMER2" AsyncBuild="" />
+</Project>

@@ -1,0 +1,137 @@
+
+<Debug>
+	<Yantronix_ECG_Base/>
+	<Flags>
+		<Report>
+			<Def Header="FlagReport" NbCol="9" >
+				<Col Type="PT_BOOL" Header="Check" sizeCache="18" AutoSize="0" Edit="1" Sortable="1" Icon="C:\Program Files\Raisonance\Ride\Config\Resources\check.bmp" />
+				<Col Type="PT_STRING" Header="Kind" sizeCache="DDDDDDDDDDD" AutoSize="1" Edit="0" Sortable="1" />
+				<Col Type="PT_STRING" Header="KindID" sizeCache="DD" AutoSize="1" Edit="0" Sortable="1" Visible="0" />
+				<Col Type="PT_STRING" Header="Space" sizeCache="DDDDDD" AutoSize="1" Edit="0" Sortable="1" />
+				<Col Type="PT_STRING" Header="SpaceID" sizeCache="DD" AutoSize="0" Edit="0" Sortable="0" Visible="0" />
+				<Col Type="PT_STRING" Header="Line" sizeCache="DDDDDDDDD" AutoSize="1" Edit="0" Sortable="1" Visible="1" />
+				<Col Type="PT_STRING" Header="File" sizeCache="DDDDDDDDDDDDDDDDDDDD" AutoSize="1" Edit="0" Sortable="1" Visible="1" />
+				<Col Type="PT_STRING" Header="Path" sizeCache="DDDDDDDDDDDDDDDDDDDD" AutoSize="1" Edit="0" Sortable="0" Visible="0" />
+				<Col Type="PT_STRING" Header="Condition" sizeCache="DDDDDDDDDDDDDDDDDDDDDDDD" AutoSize="1" Edit="0" Sortable="0" />
+				<Col Type="PT_STRING" Header="Condexpr" sizeCache="DD" AutoSize="1" Edit="0" Sortable="0" Visible="0" />
+				<Col Type="PT_STRING" Header="Condcount" sizeCache="DD" AutoSize="1" Edit="0" Sortable="0" Visible="0" />
+							
+			</Def>
+			<Rows/>
+					
+		</Report>
+			
+	</Flags>
+	<Views/>
+	<Grep>
+		<GrepIncludeSub>yes</GrepIncludeSub>
+		<GrepMatchCase>no</GrepMatchCase>
+		<GrepMatchWhole>no</GrepMatchWhole>
+		<GrepRegExp>no</GrepRegExp>
+		<GrepReplaceMode>no</GrepReplaceMode>
+		<GrepFileTypes>
+			<GrepFileTypesValue>*.c;*.h</GrepFileTypesValue>
+			<GrepFileType>*.c;*.h</GrepFileType>
+		</GrepFileTypes>
+		<GrepFindWhat>
+			<GrepFindWhatValue/>
+		</GrepFindWhat>
+		<GrepFindWhere>
+			<GrepFindWhereValue/>
+			<GrepPathStr>Application Files</GrepPathStr>
+			<GrepPathStr>Application Path</GrepPathStr>
+		</GrepFindWhere>
+		<GrepReplaceWhat>
+			<GrepReplaceWhatValue/>
+		</GrepReplaceWhat>
+	</Grep>
+	<FindStrings>
+		<Find>DAC_Configuration</Find>
+		<Find>USE_DAC_IAREF</Find>
+		<Find>DAC_Channel2_Data</Find>
+		<Find>USE_VBAT_MONITOR</Find>
+		<Find>Start_Battery_Monitor</Find>
+		<Find>Debug_Data_Report</Find>
+		<Find>Debug_Data</Find>
+		<Find>Filter_Report_Id</Find>
+		<Find>ADC_Config_Report</Find>
+		<Find>ADC_VREF_MV</Find>
+		<Find>ADC_VDDA_VOLTAGE_MV</Find>
+		<Find>ECG_Lead_Select</Find>
+		<Find>Config_Report_Id</Find>
+		<Find>DEBUG_Buff</Find>
+		<Find>ADC_DMA_Data_Reset</Find>
+		<Find>Data_Reset</Find>
+		<Find>ADC_DMA_Process_Data</Find>
+		<Find>ADC_DMA_Reset_Data</Find>
+		<Find>DMA_DATA_BUFF_SIZE</Find>
+		<Find>DEBUG_DATA_Buff</Find>
+		<Find>CONFIG_Buff</Find>
+		<Find>ADC_CONFIG_Buff</Find>
+		<Find>ADC_Config_Report_Id</Find>
+		<Find>Debug_Data_Report_Id</Find>
+		<Find>DEBUG_PRINT_Buff</Find>
+		<Find>Device_Info_Report_Id</Find>
+		<Find>DEVICE_INFO_Buff</Find>
+		<Find>ADC_Data_Max_Value</Find>
+		<Find>SetEPTxValid</Find>
+		<Find>ADC_Data_Report_Id</Find>
+		<Find>count</Find>
+		<Find>RCC_CFGR_PPRE2_DIV1</Find>
+		<Find>ADC_Sampling_Freq</Find>
+		<Find>ECG_Lead</Find>
+		<Find>TimingDelay</Find>
+		<Find>FILTER_DATA_Buff</Find>
+		<Find>pDataBuff</Find>
+		<Find>DAC_Channel1_Data</Find>
+		<Find>DATA_Buff</Find>
+		<Find>OVS_Data_Index</Find>
+		<Find>ADC1</Find>
+		<Find>ADC_Channel</Find>
+		<Find>ANALOGWATCHDOG_HIGH_THRESHOLD</Find>
+		<Find>DAC_DHR12R2_Address</Find>
+		<Find>RTC_AlarmFunc</Find>
+		<Find>RTC_Alarm_Value</Find>
+		<Find>DEBUG_REPORT_ID</Find>
+		<Find>SysTick_Config</Find>
+		<Find>SysTick</Find>
+		<Find>SysTick_IRQn</Find>
+		<Find>sec</Find>
+		<Find>Delay</Find>
+		<Find>System_Shutdown</Find>
+		<Find>Data_Channel_Index</Find>
+		<Find>USE_ADC_ANALOGWATCHDOG</Find>
+		<Find>Data_Report_Id</Find>
+		<Find>Filter_Data_Report_Id</Find>
+		<Find>USE_MUX</Find>
+		<Find>RTC_Configuration</Find>
+		<Find>RTC</Find>
+		<Find>GPIO_LED</Find>
+		<Find>DAC_DMA_TIM_ENABLED</Find>
+		<Find>ADC_DMA_TIM_ENABLED</Find>
+		<Find>Data_Channel</Find>
+		<Find>ADC_DMA_TIM_Configuration</Find>
+		<Find>FILTER_ENABLED</Find>
+		<Find>ADC_</Find>
+		<Find>ADC_Configuration</Find>
+		<Find>VBAT_AIN_CHANNEL</Find>
+		<Find>Data_Channel_Trace_Enabled</Find>
+	</FindStrings>
+	<ReplaceStrings>
+		<Find>DAC_VGnd_Data</Find>
+		<Find>ADC_VREF_MV</Find>
+		<Find>ADC_DMA_Data_Reset</Find>
+		<Find>Data_Process</Find>
+		<Find>Data_Reset</Find>
+		<Find>Data_Report_Id</Find>
+		<Find>Config_Report_Id</Find>
+		<Find>DEBUG_Buff</Find>
+		<Find>CONFIG_Buff</Find>
+		<Find>DEBUG_DATA_Buff</Find>
+		<Find>DEBUG_DATA_REPORT_ID</Find>
+		<Find>ADC_Config_Report_Id</Find>
+		<Find>ADC_CONFIG_Buff</Find>
+		<Find>ADC_Data_Report_Id</Find>
+		<Find>OVS_Data_Buff_Index</Find>
+	</ReplaceStrings>
+</Debug>
